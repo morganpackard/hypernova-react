@@ -1,9 +1,9 @@
 let React, ReactDOM, ReactDOMServer;
 
 if (process.env.NODE_ENV === 'production') {
-    React = require('react/dist/react.min');
-    ReactDOM = require('react-dom/dist/react-dom.min');
-    ReactDOMServer = require('react-dom/dist/react-dom-server.min');
+    React = require('react/dist/react');
+    ReactDOM = require('react-dom/dist/react-dom');
+    ReactDOMServer = require('react-dom/dist/react-dom-server');
 } else {
     React = require('react');
     ReactDOM = require('react-dom');
